@@ -83,6 +83,10 @@ public class ChartInfo extends DbConfig {
 		try {
 			
 	        for (Users user : allUsers) {
+	        	
+	        	
+	        	
+	        	
 	        	con = getConnectionAdmin();
 				ps = con.prepareStatement(updatePeople);
 				ps.setString(1, user.getName());
