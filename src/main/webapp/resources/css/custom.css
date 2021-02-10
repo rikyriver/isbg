@@ -1,0 +1,155 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:700);
+
+.title {
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+}
+
+.menuHalls {
+	margin-left: 38px;
+}
+
+header {
+    padding: 8em 0;
+}
+
+.btn-default {
+    background: #fff !important;
+}
+
+
+input[type=checkbox] {
+ 
+  transform: scale(1.34);
+}
+
+p.thickerText {
+  font-weight: 900;
+}
+
+header, footer, .picker-wrapper {
+  transition: background-color 0.5s ease;
+}
+header, footer, .picker-wrapper2 {
+  transition: background-color 0.5s ease;
+}
+header, footer, .picker-wrapper3 {
+  transition: background-color 0.5s ease;
+}
+
+header, footer {
+    color: white;
+    background: #303F9F;
+/*    background-image: url("background.png");*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.51);
+}
+
+h1.title {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+pre {
+    background: #212121;
+    color: white;
+}
+
+header p {
+    font-size: 1.4em;
+}
+
+footer {
+    padding: 50px 0;
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: 3em;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: white;
+}
+
+/* picker */
+
+
+.color-picker-bets {
+    background: rgba(255, 255, 255, 0.75);
+    padding: 5px;
+    border: 1px solid rgba(203, 203, 203, 0.6);
+    border-radius: 2px;
+    width: 231px;
+}
+
+.color-picker-bets > div {
+    width: 40px;
+    display: inline-block;
+    height: 40px;
+    margin: 5px;
+    border-radius: 2%;
+    border-style: solid;
+    opacity: 0.8;
+}
+
+
+.color-picker-body {
+    background: rgba(255, 255, 255, 0.75);
+    padding: 5px;
+    border: 1px solid rgba(203, 203, 203, 0.6);
+    border-radius: 2px;
+    width: 231px;
+}
+
+.color-picker-body > div {
+    width: 40px;
+    display: inline-block;
+    height: 40px;
+    margin: 5px;
+    border-radius: 2%;
+    border-style: solid;
+    opacity: 0.8;
+}
+
+
+
+.color-picker {
+    background: rgba(255, 255, 255, 0.75);
+    padding: 5px;
+    border: 1px solid rgba(203, 203, 203, 0.6);
+    border-radius: 2px;
+    width: 231px;
+}
+
+.color-picker > div {
+    width: 40px;
+    display: inline-block;
+    height: 40px;
+    margin: 5px;
+    border-radius: 2%;
+    border-style: solid;
+    opacity: 0.8;
+}
+
+.picker-wrapper {
+    padding: 20px;
+}
+.picker-wrapper2 {
+    padding: 20px;
+}
+.picker-wrapper3 {
+	 padding: 20px;
+}
+
+.color-picker > div:hover {
+    opacity: 1;
+}
+.color-picker-body > div:hover {
+    opacity: 1;
+}
+
+.color-picker-bets > div:hover {
+    opacity: 1;
+}
