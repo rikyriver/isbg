@@ -18,21 +18,16 @@ public class DbConfig {
 	private String AcUser;
 	private String AcPassword;
 	private String AcURL;
-	private String driverJdb;
-	public String UrlJdb;
- 
-	protected Connection getConnectionAdmin() throws SQLException {
-		//System.out.println("-getConnectionAdmin /192.168.0.77:");
-		if(driverJdb==null){
-			AcURL=" ";
-			AcUser=" ";
-			AcPassword=" ";
- 
+ 	private String driverJdb;
 
-			driverJdb="com.mysql.jdbc.Driver";
-				
-			//saveHistory( "getConnection ", " " ,"driverJdb not found ","", 0);
-			//return null;
+	protected Connection getConnectionAdmin() throws SQLException {
+
+		if(driverJdb==null){
+			AcURL="";
+			AcUser="";
+			AcPassword="";
+			driverJdb="";
+
 		}
 		
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
