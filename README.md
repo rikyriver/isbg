@@ -102,14 +102,23 @@ INSERT INTO `dashboard`.`T_PEOPLE` (`id`, `name`, `pin`) VALUES ('9', 'Melani Ve
 INSERT INTO `dashboard`.`T_PEOPLE` (`id`, `name`, `pin`) VALUES ('10', 'Lora Avramova', '101');
 
 INSERT INTO `dashboard`.`T_ADDRESSES` (`id`, `T_PEOPLE_ID`, `ADDR_TYPE`, `ADDR_INFO`) VALUES ('1', '1', 'test1', 'Bulgaria Sofia');
+
 INSERT INTO `dashboard`.`T_ADDRESSES` (`id`, `T_PEOPLE_ID`, `ADDR_TYPE`, `ADDR_INFO`) VALUES ('2', '2', 'test2', 'Bulgaria Plovdiv');
+
 INSERT INTO `dashboard`.`T_ADDRESSES` (`id`, `T_PEOPLE_ID`, `ADDR_TYPE`, `ADDR_INFO`) VALUES ('3', '3', 'test3', 'Bulgaria Varna');
+
 INSERT INTO `dashboard`.`T_ADDRESSES` (`id`, `T_PEOPLE_ID`, `ADDR_TYPE`, `ADDR_INFO`) VALUES ('4', '4', 'test4', 'Bulgaria Vidin');
+
 INSERT INTO `dashboard`.`T_ADDRESSES` (`id`, `T_PEOPLE_ID`, `ADDR_TYPE`, `ADDR_INFO`) VALUES ('5', '5', 'test5', 'Bulgaria Turnovo');
+
 INSERT INTO `dashboard`.`T_ADDRESSES` (`id`, `T_PEOPLE_ID`, `ADDR_TYPE`, `ADDR_INFO`) VALUES ('6', '6', 'test6', 'Bulgaria Pernik');
+
 INSERT INTO `dashboard`.`T_ADDRESSES` (`id`, `T_PEOPLE_ID`, `ADDR_TYPE`, `ADDR_INFO`) VALUES ('7', '7', 'test7', 'Bulgaria Pleven');
+
 INSERT INTO `dashboard`.`T_ADDRESSES` (`id`, `T_PEOPLE_ID`, `ADDR_TYPE`, `ADDR_INFO`) VALUES ('8', '8', 'test8', 'Bulgaria Sandanski');
+
 INSERT INTO `dashboard`.`T_ADDRESSES` (`id`, `T_PEOPLE_ID`, `ADDR_TYPE`, `ADDR_INFO`) VALUES ('9', '9', 'test9', 'Bulgaria Burgas');
+
 INSERT INTO `dashboard`.`T_ADDRESSES` (`id`, `T_PEOPLE_ID`, `ADDR_TYPE`, `ADDR_INFO`) VALUES ('10','10','test10','Bulgaria Sliven
 
 
