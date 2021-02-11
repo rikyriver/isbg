@@ -8,7 +8,7 @@ to mysql
 
 com.kaliman.dashboard.DbConnection => getConnectionAdmin
 
-			AcURL="";
+			AcURL="";(jdbc:mysql://0.0.0.0:3306/dashboard)
 			AcUser="";
 			AcPassword="";
 			driverJdb="";(com.mysql.jdbc.Driver)
