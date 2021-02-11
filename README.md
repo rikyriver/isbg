@@ -1,4 +1,15 @@
+Maven build
+Tomcat version 9
+For connect to server
+com.kaliman.dashboard.DbConnection +> getConnectionAdmin
 
+			AcURL="";
+			AcUser="";
+			AcPassword="";
+			driverJdb="";
+      
+Script to create database:      
+      
 
 CREATE DATABASE IF NOT EXISTS `dashboard` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
 USE `dashboard`;
@@ -60,4 +71,6 @@ INSERT INTO `dashboard`.`T_ADDRESSES` (`id`, `T_PEOPLE_ID`, `ADDR_TYPE`, `ADDR_I
 INSERT INTO `dashboard`.`T_ADDRESSES` (`id`, `T_PEOPLE_ID`, `ADDR_TYPE`, `ADDR_INFO`) VALUES ('8', '8', 'test8', 'Bulgaria Sandanski');
 INSERT INTO `dashboard`.`T_ADDRESSES` (`id`, `T_PEOPLE_ID`, `ADDR_TYPE`, `ADDR_INFO`) VALUES ('9', '9', 'test9', 'Bulgaria Burgas');
 INSERT INTO `dashboard`.`T_ADDRESSES` (`id`, `T_PEOPLE_ID`, `ADDR_TYPE`, `ADDR_INFO`) VALUES ('10','10','test10','Bulgaria Sliven
+
+
 
