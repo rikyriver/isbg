@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS `T_ADDRESSES` (
   KEY `id` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4;
  
--- Дъмп структура за таблица dashboard.T_MAILS
+
 CREATE TABLE IF NOT EXISTS `T_MAILS` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `T_PEOPLE_ID` int(10) unsigned NOT NULL,
@@ -31,7 +31,7 @@ CREATE TABLE IF NOT EXISTS `T_MAILS` (
   KEY `id` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4;
  
--- Дъмп структура за таблица dashboard.T_PEOPLE
+
 CREATE TABLE IF NOT EXISTS `T_PEOPLE` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(90) NOT NULL,
