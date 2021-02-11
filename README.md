@@ -96,7 +96,9 @@ INSERT INTO `dashboard`.`T_PEOPLE` (`id`, `name`, `pin`) VALUES ('6', 'Kalina Ko
 INSERT INTO `dashboard`.`T_PEOPLE` (`id`, `name`, `pin`) VALUES ('7', 'Penka Panaiotova', '777');
 
 INSERT INTO `dashboard`.`T_PEOPLE` (`id`, `name`, `pin`) VALUES ('8', 'Genadi Kostadinov', '888');
+
 INSERT INTO `dashboard`.`T_PEOPLE` (`id`, `name`, `pin`) VALUES ('9', 'Melani Veselinova', '999');
+
 INSERT INTO `dashboard`.`T_PEOPLE` (`id`, `name`, `pin`) VALUES ('10', 'Lora Avramova', '101');
 
 INSERT INTO `dashboard`.`T_ADDRESSES` (`id`, `T_PEOPLE_ID`, `ADDR_TYPE`, `ADDR_INFO`) VALUES ('1', '1', 'test1', 'Bulgaria Sofia');
