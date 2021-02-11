@@ -2,9 +2,9 @@ Maven build
 
 Tomcat version 9
 
-For connect to server
+To connect to a server, from Java
 
-com.kaliman.dashboard.DbConnection +> getConnectionAdmin
+com.kaliman.dashboard.DbConnection => getConnectionAdmin
 
 			AcURL="";
 			AcUser="";
@@ -62,14 +62,23 @@ CREATE TABLE IF NOT EXISTS `T_PEOPLE` (
 ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4;
  
 INSERT INTO `dashboard`.`T_MAILS` (`id`, `T_PEOPLE_ID`, `EMAIL_TYPE`, `EMAIL`) VALUES ('1', '1', 'abv', 'edb@abv.com');
+
 INSERT INTO `dashboard`.`T_MAILS` (`id`, `T_PEOPLE_ID`, `EMAIL_TYPE`, `EMAIL`) VALUES ('2', '2', 'mail', 'fdf@mail.com');
+
 INSERT INTO `dashboard`.`T_MAILS` (`id`, `T_PEOPLE_ID`, `EMAIL_TYPE`, `EMAIL`) VALUES ('3', '3', 'vss', 'ttr@vss.com');
+
 INSERT INTO `dashboard`.`T_MAILS` (`id`, `T_PEOPLE_ID`, `EMAIL_TYPE`, `EMAIL`) VALUES ('4', '4', 'tss', 'mmr@tss.com');
+
 INSERT INTO `dashboard`.`T_MAILS` (`id`, `T_PEOPLE_ID`, `EMAIL_TYPE`, `EMAIL`) VALUES ('5', '5', 'mss', 'kky@mss.com');
+
 INSERT INTO `dashboard`.`T_MAILS` (`id`, `T_PEOPLE_ID`, `EMAIL_TYPE`, `EMAIL`) VALUES ('6', '6', 'jss', 'ssf@jss.com');
+
 INSERT INTO `dashboard`.`T_MAILS` (`id`, `T_PEOPLE_ID`, `EMAIL_TYPE`, `EMAIL`) VALUES ('7', '7', 'ht8', '8@ht8.com');
+
 INSERT INTO `dashboard`.`T_MAILS` (`id`, `T_PEOPLE_ID`, `EMAIL_TYPE`, `EMAIL`) VALUES ('8', '8', 'ht9', '9@ht9.com');
+
 INSERT INTO `dashboard`.`T_MAILS` (`id`, `T_PEOPLE_ID`, `EMAIL_TYPE`, `EMAIL`) VALUES ('9', '9', 'ht10', '10@ht10.com');
+
 INSERT INTO `dashboard`.`T_MAILS` (`id`, `T_PEOPLE_ID`, `EMAIL_TYPE`, `EMAIL`) VALUES ('10','10', 'h11','10@h11.com');
 
 INSERT INTO `dashboard`.`T_PEOPLE` (`id`, `name`, `pin`) VALUES ('1', 'Stefan Stefanov', '111');
@@ -81,10 +90,15 @@ INSERT INTO `dashboard`.`T_PEOPLE` (`id`, `name`, `pin`) VALUES ('3', 'Stoika Pa
 INSERT INTO `dashboard`.`T_PEOPLE` (`id`, `name`, `pin`) VALUES ('4', 'Boiko Grigorov', '444');
 
 INSERT INTO `dashboard`.`T_PEOPLE` (`id`, `name`, `pin`) VALUES ('5', 'Aleksandur Kovachev', '555');
+
 INSERT INTO `dashboard`.`T_PEOPLE` (`id`, `name`, `pin`) VALUES ('6', 'Kalina Kostova', '666');
+
 INSERT INTO `dashboard`.`T_PEOPLE` (`id`, `name`, `pin`) VALUES ('7', 'Penka Panaiotova', '777');
+
 INSERT INTO `dashboard`.`T_PEOPLE` (`id`, `name`, `pin`) VALUES ('8', 'Genadi Kostadinov', '888');
+
 INSERT INTO `dashboard`.`T_PEOPLE` (`id`, `name`, `pin`) VALUES ('9', 'Melani Veselinova', '999');
+
 INSERT INTO `dashboard`.`T_PEOPLE` (`id`, `name`, `pin`) VALUES ('10', 'Lora Avramova', '101');
 
 INSERT INTO `dashboard`.`T_ADDRESSES` (`id`, `T_PEOPLE_ID`, `ADDR_TYPE`, `ADDR_INFO`) VALUES ('1', '1', 'test1', 'Bulgaria Sofia');
