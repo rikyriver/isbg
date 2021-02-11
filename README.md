@@ -1,5 +1,33 @@
 
 
+CREATE DATABASE IF NOT EXISTS `dashboard` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
+USE `dashboard`;
+
+CREATE TABLE IF NOT EXISTS `T_ADDRESSES` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `T_PEOPLE_ID` int(10) unsigned NOT NULL,
+  `ADDR_TYPE` varchar(10) NOT NULL,
+  `ADDR_INFO` varchar(300) DEFAULT NULL,
+  KEY `id` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4;
+ 
+-- Дъмп структура за таблица dashboard.T_MAILS
+CREATE TABLE IF NOT EXISTS `T_MAILS` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `T_PEOPLE_ID` int(10) unsigned NOT NULL,
+  `EMAIL_TYPE` varchar(5) NOT NULL,
+  `EMAIL` varchar(40) DEFAULT NULL,
+  KEY `id` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4;
+ 
+-- Дъмп структура за таблица dashboard.T_PEOPLE
+CREATE TABLE IF NOT EXISTS `T_PEOPLE` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `name` varchar(90) NOT NULL,
+  `pin` varchar(10) DEFAULT NULL,
+  KEY `id` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4;
+ 
 INSERT INTO `dashboard`.`T_MAILS` (`id`, `T_PEOPLE_ID`, `EMAIL_TYPE`, `EMAIL`) VALUES ('1', '1', 'abv', 'edb@abv.com');
 INSERT INTO `dashboard`.`T_MAILS` (`id`, `T_PEOPLE_ID`, `EMAIL_TYPE`, `EMAIL`) VALUES ('2', '2', 'mail', 'fdf@mail.com');
 INSERT INTO `dashboard`.`T_MAILS` (`id`, `T_PEOPLE_ID`, `EMAIL_TYPE`, `EMAIL`) VALUES ('3', '3', 'vss', 'ttr@vss.com');
