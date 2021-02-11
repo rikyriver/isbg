@@ -11,7 +11,7 @@ com.kaliman.dashboard.DbConnection => getConnectionAdmin
 			AcURL="";
 			AcUser="";
 			AcPassword="";
-			driverJdb="";
+			driverJdb="";(com.mysql.jdbc.Driver)
       
 Script to create database:      
       
