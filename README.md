@@ -73,9 +73,13 @@ INSERT INTO `dashboard`.`T_MAILS` (`id`, `T_PEOPLE_ID`, `EMAIL_TYPE`, `EMAIL`) V
 INSERT INTO `dashboard`.`T_MAILS` (`id`, `T_PEOPLE_ID`, `EMAIL_TYPE`, `EMAIL`) VALUES ('10','10', 'h11','10@h11.com');
 
 INSERT INTO `dashboard`.`T_PEOPLE` (`id`, `name`, `pin`) VALUES ('1', 'Stefan Stefanov', '111');
+
 INSERT INTO `dashboard`.`T_PEOPLE` (`id`, `name`, `pin`) VALUES ('2', 'Gergina Trendafilova', '222');
+
 INSERT INTO `dashboard`.`T_PEOPLE` (`id`, `name`, `pin`) VALUES ('3', 'Stoika Parskeva', '333');
+
 INSERT INTO `dashboard`.`T_PEOPLE` (`id`, `name`, `pin`) VALUES ('4', 'Boiko Grigorov', '444');
+
 INSERT INTO `dashboard`.`T_PEOPLE` (`id`, `name`, `pin`) VALUES ('5', 'Aleksandur Kovachev', '555');
 INSERT INTO `dashboard`.`T_PEOPLE` (`id`, `name`, `pin`) VALUES ('6', 'Kalina Kostova', '666');
 INSERT INTO `dashboard`.`T_PEOPLE` (`id`, `name`, `pin`) VALUES ('7', 'Penka Panaiotova', '777');
