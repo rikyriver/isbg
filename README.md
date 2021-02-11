@@ -4,6 +4,8 @@ Tomcat version 9
 
 To connect to a server, from Java
 
+to mysql
+
 com.kaliman.dashboard.DbConnection => getConnectionAdmin
 
 			AcURL="";
